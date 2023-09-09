@@ -54,7 +54,7 @@ The algorithm provided is designed to two of the following steps; 1) generate a 
 
 Big-O notation describes the complexity of an algorithm and it can change depending on the size of the input. Since we are looking at two algorithms, the barcode generator and the search algorithm, we will have two complexities. The Big-O of the barcode generator is constant as you are always inputting 28 pixels by 28 pixels, therefore the complexity will be O(1). However the complexity can change depending on the size of the images you are inputting. If your algorithm can handle taking in various sizes of images then the Big-O would not be constant.
 
-The Big-O of the search algorithm is dependent on the size of the barcode, n, which was generated in the previous algorithm. Since we need to compare two barcodes of the size n the Big-O would be O(n) for the first barcode and O(n) for the second barcode. When multiplied it will give us with the complexity of O().
+The Big-O of the search algorithm is dependent on the size of the barcode, n, which was generated in the previous algorithm. Since we need to compare two barcodes of the size n the Big-O would be O(n) for the first barcode and O(n) for the second barcode. When multiplied it will give us with the complexity of O(n^2).
 
 # 
 
